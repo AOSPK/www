@@ -50,11 +50,11 @@ Example nginx configuration:
 
 Example mirroring crontab: 
 
-    */15 * * * * * rsync -avh --delete rsync://mirror-sync.lineageos.org/mirror /path/to/your/mirror/folder
+    */15 * * * * * rsync -avh --delete rsync://mirror-sync.aospk.org/mirror /path/to/your/mirror/folder
 
 ### Interested in helping?
 
-Please send an email to [infra@lineageos.org](mailto:infra@lineageos.org) with the following details: 
+Please send an email to [infra@aospk.org](mailto:infra@aospk.org) with the following details: 
 
 * Main server's IP
 * Admin contact information, including name and email (this remains private)

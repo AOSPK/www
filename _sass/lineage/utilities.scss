@@ -18,18 +18,48 @@
   }
 }
 
+.bg-top {
+  background-color: $brand-primary !important;
+  font-weight: bold;
+  color: white;
+}
+
+.bg-bottom {
+  background-color: #1c1c1c !important;
+  color: white;
+}
+
+.bg-blog {
+  background-color: #1c1c1c !important;
+  color: white;
+}
+
 .bg-primary {
   background-color: $brand-primary !important;
   color: white;
 }
 
+.bg-primary-linear {
+  background-image: linear-gradient(180deg, #5884DB, #344F83);
+  color: white;
+}
+
+.bg-security {
+  background-image: linear-gradient(180deg, #1c1c1c, #1E2E4C);
+}
+
+.bg-ready {
+  background-color: #1B2D4B !important;
+  color: white;
+}
+
 .bg-primary-lighter {
-    background-color: #E0F6F7 !important;
-    color: black;
+    background-color: #1c1c1c !important;
+    color: white;
 }
 
 .bg-dark {
-  background-color: #343a40;
+  background-color: #1c1c1c;
   color: white;
 }
 
